@@ -1,5 +1,6 @@
 const sql = require("./db.js");
 
+//defined different methods for GET, PUT, POST, DELETE requests.
 // constructor
 const Customer = function(customer) {
   this.email = customer.email;
